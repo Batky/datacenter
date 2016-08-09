@@ -10,7 +10,7 @@ public class ExampleDataObject implements DataObject {
     Long id;
     String text;
 
-    public ExampleDataObject(Long id, String text) {
+    public ExampleDataObject(final Long id, final String text) {
         this.id = id;
         this.text = text;
     }
@@ -19,7 +19,7 @@ public class ExampleDataObject implements DataObject {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(final Long id) {
         this.id = id;
     }
 
@@ -27,7 +27,7 @@ public class ExampleDataObject implements DataObject {
         return text;
     }
 
-    public void setText(String text) {
+    public void setText(final String text) {
         this.text = text;
     }
 }

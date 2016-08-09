@@ -7,6 +7,6 @@ import com.google.common.util.concurrent.ListenableFuture;
  */
 public interface DataStorage {
 
-    ListenableFuture<Boolean> store(DataObject dataObject);
+    ListenableFuture<Boolean> store(final DataObject dataObject);
 
 }
